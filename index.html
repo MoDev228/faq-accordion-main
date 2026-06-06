@@ -9,7 +9,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
+      href="/faq-accordion-main/images/favicon-32x32.png"
     />
 
     <title>Frontend Mentor | FAQ accordion</title>
@@ -20,17 +20,21 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/assets/index-1z6YOhS8.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-C8JJCJRh.css">
+    <script type="module" crossorigin src="/faq-accordion-main/assets/index-TN0d5TBh.js"></script>
+    <link rel="stylesheet" crossorigin href="/faq-accordion-main/assets/index-r-5o9321.css">
   </head>
   <body
-    class="w-full min-h-screen flex justify-center items-center bg-purple-100 bg-[url(/images/background-pattern-mobile.svg)] bg-no-repeat bg-[length:100%_auto] bg-top md:bg-[url(/images/background-pattern-desktop.svg)] md: bg-[length:100%_auto]"
+    class="w-full min-h-screen flex justify-center items-center bg-purple-100 bg-[url(/images/background-pattern-mobile.svg)] bg-no-repeat bg-[length:100%_auto] bg-top md:bg-[url(/images/background-pattern-desktop.svg)] md:bg-[length:100%_auto]"
   >
     <main class="w-[min(550px,calc(100%_-_2rem))] mx-auto">
       <section class="w-full bg-white rounded-xl shadow-lg px-6 py-6">
         <div class="w-full flex items-center gap-6 mb-6">
-          <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='40'%20height='41'%20fill='none'%20viewBox='0%200%2040%2041'%3e%3cpath%20fill='%23AD28EB'%20d='M37.5%2020.5a2.467%202.467%200%200%201-1.64%202.344l-9.913%203.604-3.603%209.911a2.5%202.5%200%200%201-4.688%200l-3.604-9.922-9.911-3.593a2.5%202.5%200%200%201%200-4.688l9.921-3.604%203.594-9.911a2.5%202.5%200%200%201%204.688%200l3.604%209.921%209.911%203.594A2.467%202.467%200%200%201%2037.5%2020.5Z'/%3e%3c/svg%3e" alt="Star" class="w-6" />
-          <h1 class="text-3xl font-extrabold text-[hsl(292_42%_14%)] font-[Work_Sans]">FAQs</h1>
+          <img src="/faq-accordion-main/images/icon-star.svg" alt="Star" class="w-6" />
+          <h1
+            class="text-3xl font-extrabold text-[hsl(292_42%_14%)] font-[Work_Sans]"
+          >
+            FAQs
+          </h1>
         </div>
 
         <article>
@@ -39,19 +43,21 @@
               <a href="">What is Frontend Mentor, and how will it help me?</a>
               <button class="faq-btn">
                 <img
-                  src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='30'%20height='31'%20fill='none'%20viewBox='0%200%2030%2031'%3e%3cpath%20fill='%23AD28EB'%20d='M15%203.313A12.187%2012.187%200%201%200%2027.188%2015.5%2012.203%2012.203%200%200%200%2015%203.312Zm4.688%2013.124h-3.75v3.75a.938.938%200%200%201-1.876%200v-3.75h-3.75a.938.938%200%200%201%200-1.875h3.75v-3.75a.938.938%200%200%201%201.876%200v3.75h3.75a.938.938%200%200%201%200%201.876Z'/%3e%3c/svg%3e"
+                  src="/faq-accordion-main/images/icon-plus.svg"
                   alt="Plus"
                   class="icon-plus"
                 />
                 <img
-                  src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='30'%20height='31'%20fill='none'%20viewBox='0%200%2030%2031'%3e%3cpath%20fill='%23301534'%20d='M15%203.313A12.187%2012.187%200%201%200%2027.188%2015.5%2012.2%2012.2%200%200%200%2015%203.312Zm4.688%2013.124h-9.375a.938.938%200%200%201%200-1.875h9.374a.938.938%200%200%201%200%201.876Z'/%3e%3c/svg%3e"
+                  src="/faq-accordion-main/images/icon-minus.svg"
                   alt="Minus"
                   class="icon-minus hidden"
                 />
               </button>
             </div>
 
-            <p class="faq-answer hidden">
+            <p
+              class="faq-answer max-h-0 overflow-hidden transition-all duration-300"
+            >
               Frontend Mentor offers realistic coding challenges to help
               developers improve their frontend coding skills with projects in
               HTML, CSS, and JavaScript. It's suitable for all levels and ideal
@@ -65,19 +71,21 @@
               <a href="">Is Frontend Mentor free?</a>
               <button class="faq-btn">
                 <img
-                  src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='30'%20height='31'%20fill='none'%20viewBox='0%200%2030%2031'%3e%3cpath%20fill='%23AD28EB'%20d='M15%203.313A12.187%2012.187%200%201%200%2027.188%2015.5%2012.203%2012.203%200%200%200%2015%203.312Zm4.688%2013.124h-3.75v3.75a.938.938%200%200%201-1.876%200v-3.75h-3.75a.938.938%200%200%201%200-1.875h3.75v-3.75a.938.938%200%200%201%201.876%200v3.75h3.75a.938.938%200%200%201%200%201.876Z'/%3e%3c/svg%3e"
+                  src="/faq-accordion-main/images/icon-plus.svg"
                   alt="Plus"
                   class="icon-plus"
                 />
                 <img
-                  src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='30'%20height='31'%20fill='none'%20viewBox='0%200%2030%2031'%3e%3cpath%20fill='%23301534'%20d='M15%203.313A12.187%2012.187%200%201%200%2027.188%2015.5%2012.2%2012.2%200%200%200%2015%203.312Zm4.688%2013.124h-9.375a.938.938%200%200%201%200-1.875h9.374a.938.938%200%200%201%200%201.876Z'/%3e%3c/svg%3e"
+                  src="/faq-accordion-main/images/icon-minus.svg"
                   alt="Minus"
                   class="icon-minus hidden"
                 />
               </button>
             </div>
 
-            <p class="faq-answer hidden">
+            <p
+              class="faq-answer max-h-0 overflow-hidden transition-all duration-300"
+            >
               Yes, Frontend Mentor offers both free and premium coding
               challenges, with the free option providing access to a range of
               projects suitable for all skill levels.
@@ -91,16 +99,18 @@
                 Can I use Frontend Mentor projects in my portfolio?</a
               >
               <button class="faq-btn">
-                <img src="/images/icon-plus.svg" alt="Plus" class="icon-plus" />
+                <img src="/faq-accordion-main/images/icon-plus.svg" alt="Plus" class="icon-plus" />
                 <img
-                  src="/images/icon-minus.svg"
+                  src="/faq-accordion-main/images/icon-minus.svg"
                   alt="Minus"
                   class="icon-minus hidden"
                 />
               </button>
             </div>
 
-            <p class="faq-answer hidden">
+            <p
+              class="faq-answer max-h-0 overflow-hidden transition-all duration-300"
+            >
               Yes, you can use projects completed on Frontend Mentor in your
               portfolio. It's an excellent way to showcase your skills to
               potential employers!
@@ -110,21 +120,20 @@
         <article>
           <div class="accordion">
             <div class="accordion-title">
-              <a href="">
-                How can I get help if I'm stuck on a
-                challenge?</a
-              >
+              <a href=""> How can I get help if I'm stuck on a challenge?</a>
               <button class="faq-btn">
-                <img src="/images/icon-plus.svg" alt="Plus" class="icon-plus" />
+                <img src="/faq-accordion-main/images/icon-plus.svg" alt="Plus" class="icon-plus" />
                 <img
-                  src="/images/icon-minus.svg"
+                  src="/faq-accordion-main/images/icon-minus.svg"
                   alt="Minus"
                   class="icon-minus hidden"
                 />
               </button>
             </div>
 
-            <p class="faq-answer hidden">
+            <p
+              class="faq-answer max-h-0 overflow-hidden transition-all duration-300"
+            >
               The best place to get help is inside Frontend Mentor's Discord
               community. There's a help channel where you can ask questions and
               seek support from other community members.
