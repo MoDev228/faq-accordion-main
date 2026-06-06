@@ -15,19 +15,20 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/images/modev228.github.io_faq-accordion-main_.png)
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/MoDev228/name-project)
-- Live Site URL: [Name site](https://g-akca.github.io/name-project/)
+- Solution URL: [GitHub Repos](https://github.com/MoDev228/faq-accordion-main)
+- Live Site URL: [FAQS Accordion](https://g-akca.github.io/faq-accordion-main/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- TAILWIND CSS
+- CSS
 - Flexbox
 - Mobile-first workflow
 
