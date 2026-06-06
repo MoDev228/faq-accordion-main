@@ -41,30 +41,43 @@ buttons.forEach((button) => {
 
   });
 }); */
-
 const buttons = document.querySelectorAll(".faq-btn");
 
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
     const article = button.closest("article");
+
     const plusIcon = button.querySelector(".icon-plus");
     const minusIcon = button.querySelector(".icon-minus");
 
     const answer = article.querySelector(".faq-answer");
 
-    const isOpen = !answer.classList.contains("hidden");
+    const isOpen = answer.classList.contains("max-h-96");
 
     const answers = document.querySelectorAll(".faq-answer");
 
-    answers.forEach((answer) => {
-      answer.classList.add("hidden");
+    // 1. fermer toutes les réponses
+    answers.forEach((faqAnswer) => {
+      faqAnswer.classList.remove("max-h-96");
+      faqAnswer.classList.add("max-h-0");
     });
 
-    if (!isOpen) {
-      answer.classList.remove("hidden");
-    }
+    // 2. reset icônes
+    document.querySelectorAll(".icon-plus").forEach((icon) => {
+      icon.classList.remove("hidden");
+    });
 
-    plusIcon.classList.toggle("hidden");
-    minusIcon.classList.toggle("hidden");
+    document.querySelectorAll(".icon-minus").forEach((icon) => {
+      icon.classList.add("hidden");
+    });
+
+    // 3. ouvrir si nécessaire
+    if (!isOpen) {
+      answer.classList.remove("max-h-0");
+      answer.classList.add("max-h-96");
+
+      plusIcon.classList.add("hidden");
+      minusIcon.classList.remove("hidden");
+    }
   });
 });
